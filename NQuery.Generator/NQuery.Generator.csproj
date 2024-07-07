@@ -24,8 +24,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Charpoos\Charpoos.csproj" />
       <ProjectReference Include="..\NQuery\NQuery.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Charpoos">
+        <HintPath>..\..\Charpoos\Charpoos\bin\Release\netstandard2.1\Charpoos.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 

@@ -9,13 +9,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Charpoos\Charpoos.csproj" />
         <ProjectReference Include="..\NQuery.Generator\NQuery.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
         <ProjectReference Include="..\NQuery\NQuery.csproj" />
     </ItemGroup>
 
     <ItemGroup>
         <None Remove="DDD.UbiquitousLanguageRegistry.txt"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Charpoos">
+        <HintPath>..\..\Charpoos\Charpoos\bin\Release\netstandard2.1\Charpoos.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
